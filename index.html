@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <style media="screen">
+      body {
+        margin: 0;
+        overflow: hidden;
+      }
+
+      code-mirror:nth-child(2n) {
+        border-top: 1px solid #568CBD;
+      }
+    </style>
+  </head>
+  <body>
+
+<code-mirror mode="javascript" width="100vw" height="50vh">
+function hello(n) {
+  var x = n * 2
+  console.log('!', n, x, '?')
+}
+</code-mirror>
+
+<code-mirror mode="css" width="100vw" height="50vh">
+h1 {
+  color: #f00;
+}
+</code-mirror>
+
+    <script src="bundle.js" charset="utf-8"></script>
+  </body>
+</html>
